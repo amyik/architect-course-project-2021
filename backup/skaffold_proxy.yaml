@@ -1,0 +1,20 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+    - image: caasportal-frontend
+      context: caasportal-frontend
+      docker:
+        buildArgs:
+          http_proxy: http://70.10.15.10:8080
+          https_proxy: http://70.10.15.10:8080
+    - image: caasportal-backend
+      jib:
+        project: caasportal-backend
+    - image: caasportal-provisioner
+      jib:
+        project: caasportal-provisioner
+deploy:
+  kubectl:
+    manifests:
+      - k8s/**.yaml

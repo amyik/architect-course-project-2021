@@ -1,0 +1,41 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+    - image: eshop-currencyservice
+      context: eshop-services/eshop-currencyservice
+      docker:
+        buildArgs:
+          http_proxy: http://70.10.15.10:8080
+          https_proxy: http://70.10.15.10:8080
+    - image: eshop-recommendservice
+      context: eshop-services/eshop-recommendservice
+      docker:
+        buildArgs:
+          http_proxy: http://70.10.15.10:8080
+          https_proxy: http://70.10.15.10:8080
+    - image: eshop-productservice
+      context: eshop-services/eshop-productservice
+      docker:
+        buildArgs:
+          http_proxy: http://70.10.15.10:8080
+          https_proxy: http://70.10.15.10:8080
+    - image: eshop-cartservice
+      jib:
+        project: eshop-services:eshop-cartservice
+    - image: eshop-backend
+      jib:
+        project: eshop-services:eshop-backend
+    - image: eshop-adservice
+      jib:
+        project: eshop-services:eshop-adservice
+    - image: eshop-frontend
+      context: eshop-services/eshop-frontend
+      docker:
+        buildArgs:
+          http_proxy: http://70.10.15.10:8080
+          https_proxy: http://70.10.15.10:8080
+deploy:
+  kubectl:
+    manifests:
+      - eshop-services/k8s/**.yaml

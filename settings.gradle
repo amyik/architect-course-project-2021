@@ -1,0 +1,15 @@
+rootProject.name = 'devops'
+
+include 'backend'
+include 'camel'
+include ':tool-managers:code-repo-tool-manager'
+include ':tool-managers:image-repo-tool-manager'
+include ':tool-managers:build-tool-manager'
+
+//include 'caasportal-backend'
+//include 'caasportal-provisioner'
+//include 'common'
+//
+//include ':eshop-services:eshop-backend'
+//include ':eshop-services:eshop-adservice'
+//include ':eshop-services:eshop-cartservice'

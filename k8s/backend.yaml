@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: backend
+          ports:
+          - containerPort: 8080
+          env:
+#            - name: URL_CARTSERVICE
+#              value: http://eshop-cartservice:8091
+#            - name: URL_PRODUCTSERVICE
+#              value: http://eshop-productservice:8092
+#            - name: SPRING_DATASOURCE_URL
+#              value: "jdbc:postgresql://postgres:5432/eshop_db"
+#            - name: SPRING_RABBITMQ_HOST
+#              value: rabbitmq
+          resources:
+            requests:
+              cpu: 200m
+              memory: 200Mi
+            limits:
+              cpu: 400m
+              memory: 300Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  type: ClusterIP
+  selector:
+    app: backend
+  ports:
+  - port: 8000
+    targetPort: 8080

@@ -1,0 +1,27 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: ${var.kind}
+metadata:
+  name: ${var.name}
+spec:
+  hosts:
+  - ${var.gateway}
+  http:
+  - name: ${var.httpname_0}
+    match:
+    - uri:
+        prefix: ${var.prefix_0}
+    route:
+    - destination:
+         host: ${var.host_0_0}
+      weight: ${var.weight_0_0}
+    - destination:
+         host: ${var.host_0_1}
+      weight: ${var.weight_0_1}
+   - name: ${var.httpname_1}
+     match:
+     - uri:
+         prefix: ${var.prefix_1}
+     route:
+     - destination:
+          host: ${var.host_1_0}
+       weight: ${var.weight_1_0}

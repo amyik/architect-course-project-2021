@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-db
+spec:
+  selector:
+    matchLabels:
+      app: backend-db
+  template:
+    metadata:
+      labels:
+        app: backend-db
+    spec:
+      containers:
+      - name: backend-db
+        image: postgres:13
+        env:
+          - name: POSTGRES_USER
+            value: userid
+          - name: POSTGRES_PASSWORD
+            value: password
+          - name: POSTGRES_DB
+            value: backend-db
+        ports:
+        - containerPort: 5432
+        resources:
+          requests:
+            cpu: 300m
+            memory: 200Mi
+          limits:
+            cpu: 300m
+            memory: 400Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-db
+spec:
+  type: NodePort
+  selector:
+    app: backend-db
+  ports:
+  - port: 5432
+    targetPort: 5432
+    nodePort: 30001

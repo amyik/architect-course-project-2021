@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /api/backend
+            backend:
+              serviceName: backend
+              servicePort: 8000
+          - path: /api/build-tool-manager
+            backend:
+              serviceName: build-tool-manager
+              servicePort: 8000
+          - path: /api/code-repo-tool-manager
+            backend:
+              serviceName: code-repo-tool-manager
+              servicePort: 8000
+          - path: /api/image-repo-tool-manager
+            backend:
+              serviceName: image-repo-tool-manager
+              servicePort: 8000
+
+
+
+

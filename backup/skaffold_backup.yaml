@@ -1,0 +1,16 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+    - image: caasportal-frontend
+      context: caasportal-frontend
+    - image: caasportal-backend
+      jib:
+        project: caasportal-backend
+    - image: caasportal-provisioner
+      jib:
+        project: caasportal-provisioner
+deploy:
+  kubectl:
+    manifests:
+      - k8s/**.yaml

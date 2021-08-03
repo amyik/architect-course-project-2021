@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: caasportal-frontend
+spec:
+  selector:
+    matchLabels:
+      app: caasportal-frontend
+  template:
+    metadata:
+      labels:
+        app: caasportal-frontend
+    spec:
+      containers:
+        - name: caasportal-frontend
+          image: caasportal-frontend
+          ports:
+          - containerPort: 8080
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caasportal-frontend
+spec:
+  type: ClusterIP
+  selector:
+    app: caasportal-frontend
+  ports:
+  - port: 8000
+    targetPort: 8080

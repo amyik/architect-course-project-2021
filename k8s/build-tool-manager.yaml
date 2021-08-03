@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: build-tool-manager
+spec:
+  selector:
+    matchLabels:
+      app: build-tool-manager
+  template:
+    metadata:
+      labels:
+        app: build-tool-manager
+    spec:
+      containers:
+        - name: build-tool-manager
+          image: build-tool-manager
+          ports:
+          - containerPort: 8080
+          env:
+#            - name: URL_CARTSERVICE
+#              value: http://eshop-cartservice:8091
+#            - name: URL_PRODUCTSERVICE
+#              value: http://eshop-productservice:8092
+#            - name: SPRING_DATASOURCE_URL
+#              value: "jdbc:postgresql://postgres:5432/eshop_db"
+#            - name: SPRING_RABBITMQ_HOST
+#              value: rabbitmq
+          resources:
+            requests:
+              cpu: 200m
+              memory: 200Mi
+            limits:
+              cpu: 400m
+              memory: 300Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: build-tool-manager
+spec:
+  type: ClusterIP
+  selector:
+    app: build-tool-manager
+  ports:
+  - port: 8000
+    targetPort: 8080

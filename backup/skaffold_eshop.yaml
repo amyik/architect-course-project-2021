@@ -1,0 +1,25 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+    - image: eshop-currencyservice
+      context: eshop-services/eshop-currencyservice
+    - image: eshop-recommendservice
+      context: eshop-services/eshop-recommendservice
+    - image: eshop-productservice
+      context: eshop-services/eshop-productservice
+    - image: eshop-cartservice
+      jib:
+        project: eshop-services:eshop-cartservice
+    - image: eshop-backend
+      jib:
+        project: eshop-services:eshop-backend
+    - image: eshop-adservice
+      jib:
+        project: eshop-services:eshop-adservice
+    - image: eshop-frontend
+      context: eshop-services/eshop-frontend
+deploy:
+  kubectl:
+    manifests:
+      - eshop-services/k8s/**.yaml

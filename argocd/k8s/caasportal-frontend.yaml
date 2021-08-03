@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: caasportal-frontend
+spec:
+  selector:
+    matchLabels:
+      app: caasportal-frontend
+  template:
+    metadata:
+      labels:
+        app: caasportal-frontend
+    spec:
+      containers:
+        - name: caasportal-frontend
+          image: gcr.io/architect-certification-289902/team6/caasportal-frontend@sha256:5c6754a45d21106e3aa5d89e82aeb635a6005e1126e1c414b9bc8022d68633d3
+          ports:
+          - containerPort: 8080
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caasportal-frontend
+spec:
+  type: ClusterIP
+  selector:
+    app: caasportal-frontend
+  ports:
+  - port: 8000
+    targetPort: 8080

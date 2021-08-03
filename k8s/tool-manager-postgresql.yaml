@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tool-manager-db
+spec:
+  selector:
+    matchLabels:
+      app: tool-manager-db
+  template:
+    metadata:
+      labels:
+        app: tool-manager-db
+    spec:
+      containers:
+      - name: tool-manager-db
+        image: postgres:13
+        env:
+          - name: POSTGRES_USER
+            value: userid
+          - name: POSTGRES_PASSWORD
+            value: password
+          - name: POSTGRES_DB
+            value: tool-manager-db
+        ports:
+        - containerPort: 5432
+        resources:
+          requests:
+            cpu: 300m
+            memory: 200Mi
+          limits:
+            cpu: 300m
+            memory: 400Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tool-manager-db
+spec:
+  type: NodePort
+  selector:
+    app: tool-manager-db
+  ports:
+  - port: 5432
+    targetPort: 5432
+    nodePort: 30002

@@ -1,0 +1,20 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+build:
+  artifacts:
+    - image: backend
+      jib:
+        project: backend
+    - image: build-tool-manager
+      jib:
+        project: tool-managers:build-tool-manager
+    - image: code-repo-tool-manager
+      jib:
+        project: tool-managers:code-repo-tool-manager
+    - image: image-repo-tool-manager
+      jib:
+        project: tool-managers:image-repo-tool-manager
+deploy:
+  kubectl:
+    manifests:
+      - k8s/**.yaml

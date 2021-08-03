@@ -1,0 +1,6 @@
+server:
+  port: 7001
+  servlet:
+    context-path: /api/camel
+
+camel.springboot.main-run-controller: true
