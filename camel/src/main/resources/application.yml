@@ -1,8 +1,19 @@
 server:
-  port: 7001
+  port: 8080
   servlet:
     context-path: /api/camel
 
 spring.application.name: camel
 
 camel.springboot.main-run-controller: true
+
+camel:
+  service:
+    lra:
+      enabled: true
+      coordinator-url: http://localhost:8080
+      local-participant-url: http://localhost:8080/api
+  component:
+    servlet:
+      mapping:
+        context-path: /api/*
