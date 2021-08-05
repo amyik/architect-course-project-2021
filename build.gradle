@@ -1,0 +1,13 @@
+subprojects {
+    group = 'com.sds.devops'
+    version = '0.0.1-SNAPSHOT'
+
+    task wrapper(type: Wrapper){
+        gradleVersion = '7.1.1'
+    }
+
+    repositories {
+        mavenCentral()
+    }
+}
+
