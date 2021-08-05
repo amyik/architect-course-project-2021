@@ -1,4 +1,13 @@
-GET http://localhost:8080/api//build-tool-manager/jpa-test
+GET http://localhost:8080/api/build-tool-manager/jpa-test
 Accept: application/json
 
 ###
+GET http://localhost:8080/api/code-repo-tool-manager/jpa-test
+Accept: application/json
+
+###
+GET http://localhost:8080/api/image-repo-tool-manager/jpa-test
+Accept: application/json
+
+###
+
