@@ -3,4 +3,6 @@ server:
   servlet:
     context-path: /api/camel
 
+spring.application.name: camel
+
 camel.springboot.main-run-controller: true

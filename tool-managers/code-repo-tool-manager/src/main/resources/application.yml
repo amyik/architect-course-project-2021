@@ -2,3 +2,5 @@ server:
   port: 8080
   servlet:
     context-path: /api/code-repo-tool-manager
+
+spring.application.name: code-repo-tool-manager

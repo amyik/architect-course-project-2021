@@ -1,3 +1,7 @@
+
+
+### jpa 기본동작 확인
+
 GET http://localhost:8080/api/build-tool-manager/jpa-test
 Accept: application/json
 
@@ -11,3 +15,25 @@ Accept: application/json
 
 ###
 
+### rest controller 동작 확인
+
+GET http://localhost:8080/api/backend/sample
+Accept: application/json
+
+###
+GET http://localhost:8080/api/camel/sample
+Accept: application/json
+
+###
+GET http://localhost:8080/api/build-tool-manager/sample
+Accept: application/json
+
+###
+GET http://localhost:8080/api/code-repo-tool-manager/sample
+Accept: application/json
+
+###
+GET http://localhost:8080/api/image-repo-tool-manager/sample
+Accept: application/json
+
+###

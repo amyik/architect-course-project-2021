@@ -56,5 +56,5 @@ spec:
   selector:
     app: build-tool-manager
   ports:
-  - port: 8000
+  - port: 8080
     targetPort: 8080

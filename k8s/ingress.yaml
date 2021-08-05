@@ -12,19 +12,23 @@ spec:
           - path: /api/backend
             backend:
               serviceName: backend
-              servicePort: 8000
+              servicePort: 8080
+          - path: /api/camel
+            backend:
+              serviceName: camel
+              servicePort: 8080
           - path: /api/build-tool-manager
             backend:
               serviceName: build-tool-manager
-              servicePort: 8000
+              servicePort: 8080
           - path: /api/code-repo-tool-manager
             backend:
               serviceName: code-repo-tool-manager
-              servicePort: 8000
+              servicePort: 8080
           - path: /api/image-repo-tool-manager
             backend:
               serviceName: image-repo-tool-manager
-              servicePort: 8000
+              servicePort: 8080
 
 
 
