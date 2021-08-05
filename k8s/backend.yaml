@@ -17,6 +17,20 @@ spec:
           ports:
           - containerPort: 8080
           env:
+            - name: spring.datasource.url
+              value: jdbc:postgresql://backend-db:5432/backend-db
+            - name: spring.datasource.username
+              value: userid
+            - name: spring.datasource.password
+              value: password
+            - name: spring.jpa.hibernate.dialect
+              value: org.hibernate.dialect.PostgreSQL11Dialect
+            - name: spring.jpa.hibernate.ddl-auto
+              value: update
+            - name: spring.jpa.properties.hibernate.format_sql
+              value: "true"
+            - name: spring.jpa.show-sql
+              value: "true"
 #            - name: URL_CARTSERVICE
 #              value: http://eshop-cartservice:8091
 #            - name: URL_PRODUCTSERVICE

@@ -1,0 +1,4 @@
+GET http://localhost:8080/api//build-tool-manager/jpa-test
+Accept: application/json
+
+###
