@@ -3,4 +3,6 @@ server:
   servlet:
     context-path: /api/image-repo-tool-manager
 
-spring.application.name: image-repo-tool-manager
+spring:
+  application.name: image-repo-tool-manager
+  main.banner-mode: off

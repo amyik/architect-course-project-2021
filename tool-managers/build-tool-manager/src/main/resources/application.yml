@@ -3,4 +3,6 @@ server:
   servlet:
     context-path: /api/build-tool-manager
 
-spring.application.name: build-tool-manager
+spring:
+  application.name: build-tool-manager
+  main.banner-mode: off
