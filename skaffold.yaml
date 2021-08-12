@@ -5,6 +5,9 @@ build:
     - image: backend
       jib:
         project: backend
+    - image: camel
+      jib:
+        project: camel
     - image: build-tool-manager
       jib:
         project: tool-managers:build-tool-manager

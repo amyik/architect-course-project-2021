@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: camel
+spec:
+  selector:
+    matchLabels:
+      app: camel
+  template:
+    metadata:
+      labels:
+        app: camel
+    spec:
+      containers:
+        - name: camel
+          image: camel
+          ports:
+          - containerPort: 8080
+          env:
+#            - name: spring.datasource.url
+#              value: jdbc:postgresql://tool-manager-db:5432/tool-manager-db
+#            - name: spring.datasource.username
+#              value: userid
+#            - name: spring.datasource.password
+#              value: password
+#            - name: spring.jpa.hibernate.dialect
+#              value: org.hibernate.dialect.PostgreSQL11Dialect
+#            - name: spring.jpa.hibernate.ddl-auto
+#              value: update
+#            - name: spring.jpa.properties.hibernate.format_sql
+#              value: "true"
+#            - name: spring.jpa.show-sql
+#              value: "true"
+#            - name: URL_CARTSERVICE
+#              value: http://eshop-cartservice:8091
+#            - name: URL_PRODUCTSERVICE
+#              value: http://eshop-productservice:8092
+#            - name: SPRING_DATASOURCE_URL
+#              value: "jdbc:postgresql://postgres:5432/eshop_db"
+#            - name: SPRING_RABBITMQ_HOST
+#              value: rabbitmq
+          resources:
+            requests:
+              cpu: 200m
+              memory: 200Mi
+            limits:
+              cpu: 400m
+              memory: 300Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: camel
+spec:
+  type: ClusterIP
+  selector:
+    app: camel
+  ports:
+  - port: 8080
+    targetPort: 8080

@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/camel/sample
+Accept: application/json
+
+
+###
+
+GET http://localhost:8080/api/camel/hello
+Accept: application/json
+
+###
