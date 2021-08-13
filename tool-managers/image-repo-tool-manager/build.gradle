@@ -24,6 +24,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 
     implementation project(':tool-managers:tool-managers-common')
+    implementation project(':common')
 
     testImplementation ('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

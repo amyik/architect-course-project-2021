@@ -1,10 +1,60 @@
+###
 GET http://localhost:8080/api/camel/sample
 Accept: application/json
 
 
 ###
 
-GET http://localhost:8080/api/camel/hello
+GET http://localhost:8080/api/camel/hello camel
+Accept: application/json
+###
+
+
+GET http://localhost:8080/api/camel/hello-world
+Accept: application/json
+###
+
+
+GET http://localhost:8080/api/backend/sample
 Accept: application/json
 
+###
+GET http://localhost:8080/api/build-tool-manager/sample
+Accept: application/json
+
+###
+#POST http://localhost:8080/api/camel/create-project
+POST http://localhost:8080/api/camel/projects
+#POST http://localhost:8081/orders
+Accept: application/json
+
+{
+  "project": {
+    "name": "myProject"
+  },
+  "codeRepoTool": {
+    "use": true,
+    "type": "GITHUB",
+    "name": "myGITHUB",
+    "url": "http://github.com/myGITHUB"
+  },
+  "imageRepoTool": {
+    "use": true,
+    "type": "REDII",
+    "name": "myREDII",
+    "url": "http://redii.net/myREDII"
+  },
+  "buildTool": {
+    "use": true,
+    "type": "JENKINS",
+    "name": "myJENKINS",
+    "url": "http://jenkins.com/myJENKINS"
+  },
+  "otherTool": {
+    "use": false,
+    "type": null,
+    "name": null,
+    "url": null
+  }
+}
 ###

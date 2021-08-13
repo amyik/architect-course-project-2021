@@ -2,6 +2,7 @@ rootProject.name = 'devops'
 
 include 'backend'
 include 'camel'
+include 'common'
 include ':tool-managers:tool-managers-common'
 include ':tool-managers:code-repo-tool-manager'
 include ':tool-managers:image-repo-tool-manager'

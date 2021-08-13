@@ -18,3 +18,10 @@ camel:
 #    servlet:
 #      mapping:
 #        context-path: /camel/*
+  rest:
+#    component: undertow
+#    port: 8081
+#    binding-mode: json_xml
+    binding-mode: json
+    data-format-property.prettyPrint: "true"
+#    producer-component: "http4"

@@ -7,7 +7,8 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication(scanBasePackages = "com.sds.devops.camel")
+//@SpringBootApplication(scanBasePackages = "com.sds.devops.camel")
+@SpringBootApplication
 public class CamelApplication {
 
     public static void main(String[] args) {
