@@ -6,3 +6,7 @@ server:
 spring:
   application.name: build-tool-manager
   main.banner-mode: off
+
+logging:
+  level:
+    com.sds.devops: DEBUG

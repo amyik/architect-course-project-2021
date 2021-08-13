@@ -10,6 +10,8 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
 import org.springframework.stereotype.Component;
 
+import java.net.http.HttpClient;
+
 @Slf4j
 @RequiredArgsConstructor
 @Component
@@ -37,7 +39,11 @@ public class CreateProjectRoute extends RouteBuilder {
                 .log("returned from validator")
                 .marshal().json()
                 .setHeader(Exchange.HTTP_METHOD, constant("POST"))
-                .to("http://code-repo-tool-manager:8080/api/code-repo-tool-manager/create-repo?bridgeEndpoint=true")
+//                .wireTap("")
+                .multicast().parallelProcessing()
+                    .to("http://code-repo-tool-manager:8080/api/code-repo-tool-manager/create-repo?bridgeEndpoint=true"
+                            , "http://image-repo-tool-manager:8080/api/image-repo-tool-manager/create-repo?bridgeEndpoint=true"
+                            , "http://build-tool-manager:8080/api/build-tool-manager/create-repo?bridgeEndpoint=true")
                 .convertBodyTo(String.class)
                 .process(exchange -> {
                     log.debug("inProcess");

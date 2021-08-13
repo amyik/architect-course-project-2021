@@ -40,7 +40,8 @@ public class SampleController {
     }
 
     @PostMapping("/create-repo")
-    public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) {
+    public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+        Thread.sleep(1000L);
         log.info("{}", createProjectDto);
         return true;
     }
