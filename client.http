@@ -1,18 +1,15 @@
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{}
+
+###
 ###
 GET http://localhost:8080/api/camel/sample
 Accept: application/json
 
-
 ###
 
-GET http://localhost:8080/api/camel/hello camel
-Accept: application/json
-###
-
-
-GET http://localhost:8080/api/camel/hello-world
-Accept: application/json
-###
 
 
 GET http://localhost:8080/api/backend/sample
@@ -23,10 +20,16 @@ GET http://localhost:8080/api/build-tool-manager/sample
 Accept: application/json
 
 ###
-#POST http://localhost:8080/api/camel/create-project
-POST http://localhost:8080/api/camel/projects
-#POST http://localhost:8081/orders
+GET http://localhost:7777/api/camel/hello-world
 Accept: application/json
+###
+
+#POST http://localhost:8080/api/camel/create-project
+POST http://localhost:7777/api/camel/projects
+#POST http://localhost:8083/api/code-repo-tool-manager/create-repo
+#POST http://localhost:8080/api/camel/projects
+#POST http://localhost:8081/orders
+Content-Type: application/json
 
 {
   "project": {

@@ -12,5 +12,12 @@ public class ProjectService {
         log.debug(String.valueOf(createProjectDto));
         return "DONE";
     }
+
+    public CreateProjectDto validate(CreateProjectDto createProjectDto) {
+        log.debug("validating data");
+        if(createProjectDto == null || createProjectDto.getProject() == null)
+            throw new IllegalArgumentException();
+        return createProjectDto;
+    }
 }
 

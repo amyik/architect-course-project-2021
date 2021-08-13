@@ -15,7 +15,9 @@ configurations {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
     implementation 'org.apache.camel.springboot:camel-spring-boot-starter:3.11.1'
+
     implementation 'org.apache.camel.springboot:camel-servlet-starter:3.11.1'
     implementation 'org.apache.camel.springboot:camel-jackson-starter:3.11.1'
     implementation 'org.apache.camel.springboot:camel-http-starter:3.11.1'

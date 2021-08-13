@@ -1,11 +1,15 @@
 server:
-  port: 8080
+#  port: 8080
 #  servlet:
 #    context-path: /api/camel
 
 spring:
   application.name: camel
   main.banner-mode: off
+
+logging:
+  level:
+    com.sds.devops: DEBUG
 
 camel:
 #  springboot.main-run-controller: true
@@ -17,11 +21,14 @@ camel:
 #  component:
 #    servlet:
 #      mapping:
+#        enabled: true
+#        context-path: /api/camel/*
+#        servlet-name: CamelServlet
 #        context-path: /camel/*
-  rest:
+#  rest:
 #    component: undertow
 #    port: 8081
 #    binding-mode: json_xml
-    binding-mode: json
-    data-format-property.prettyPrint: "true"
+#    binding-mode: json
+#    data-format-property.prettyPrint: "true"
 #    producer-component: "http4"

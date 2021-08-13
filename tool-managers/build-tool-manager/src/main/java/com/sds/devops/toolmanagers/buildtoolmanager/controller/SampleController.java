@@ -1,18 +1,19 @@
 package com.sds.devops.toolmanagers.buildtoolmanager.controller;
 
 
+import com.sds.common.dto.CreateProjectDto;
 import com.sds.devops.toolmanagers.common.repository.ToolEntity;
 import com.sds.devops.toolmanagers.common.repository.ToolRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.util.Streamable;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequiredArgsConstructor
 public class SampleController {
@@ -36,6 +37,12 @@ public class SampleController {
         Iterable<ToolEntity> all = toolRepository.findAll();
 
         return Streamable.of(all).toList();
+    }
+
+    @PostMapping("/create-repo")
+    public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) {
+        log.debug("{}", createProjectDto);
+        return true;
     }
 
 }
