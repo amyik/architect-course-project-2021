@@ -39,10 +39,21 @@ public class SampleController {
         return Streamable.of(all).toList();
     }
 
+    @PostMapping("/delete-repo")
+    public boolean deleteRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+        CreateProjectDto.ToolInfo codeRepoTool = createProjectDto.getCodeRepoTool();
+        toolRepository.deleteByName(codeRepoTool.getName());
+        Thread.sleep(1000L);
+        log.debug("{}", createProjectDto);
+        return true;
+    }
+
     @PostMapping("/create-repo")
     public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+        CreateProjectDto.ToolInfo codeRepoTool = createProjectDto.getCodeRepoTool();
         Thread.sleep(1000L);
-        log.info("{}", createProjectDto);
+        log.debug("{}", createProjectDto);
+        toolRepository.save(new ToolEntity(null, codeRepoTool.getName(), codeRepoTool.getType(), codeRepoTool.getUrl()));
         return true;
     }
 }

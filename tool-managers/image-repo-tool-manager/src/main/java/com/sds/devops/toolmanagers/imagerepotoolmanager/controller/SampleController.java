@@ -39,10 +39,21 @@ public class SampleController {
         return Streamable.of(all).toList();
     }
 
-    @PostMapping("/create-repo")
-    public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+    @PostMapping("/delete-repo")
+    public boolean deleteRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+        CreateProjectDto.ToolInfo imageRepoTool = createProjectDto.getImageRepoTool();
+        toolRepository.deleteByName(imageRepoTool.getName());
         Thread.sleep(1000L);
         log.debug("{}", createProjectDto);
+        return true;
+    }
+
+    @PostMapping("/create-repo")
+    public boolean createRepo(@RequestBody CreateProjectDto createProjectDto) throws InterruptedException {
+        CreateProjectDto.ToolInfo imageRepoTool = createProjectDto.getImageRepoTool();
+        Thread.sleep(1000L);
+        log.debug("{}", createProjectDto);
+        toolRepository.save(new ToolEntity(null, imageRepoTool.getName(), imageRepoTool.getType(), imageRepoTool.getUrl()));
         return true;
     }
 

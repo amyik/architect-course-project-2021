@@ -9,23 +9,42 @@ GET http://localhost:8080/api/camel/sample
 Accept: application/json
 
 ###
-
-
-
 GET http://localhost:8080/api/backend/sample
 Accept: application/json
 
-###
-GET http://localhost:8080/api/build-tool-manager/sample
-Accept: application/json
 
-###
+### camel rest 동작 확인
 GET http://localhost:7777/api/camel/hello-world
 Accept: application/json
+
+### Rest Controller 동작 확인
+GET http://localhost:7777/api/build-tool-manager/sample
+Accept: application/json
+
+### Rest Controller 동작 확인
+GET http://localhost:7777/api/build-tool-manager/sample
+Accept: application/json
+
+### build-tool 데이터 하나 만들기
+GET http://localhost:7777/api/build-tool-manager/jpa-test
+Accept: application/json
+
+### 모든 툴 정보 삭제
+DELETE http://localhost:7777/api/build-tool-manager/tools
+Accept: application/json
+
+### 모든 툴 정보 조회
+GET http://localhost:7777/api/build-tool-manager/tools
+Accept: application/json
+
+
+
 ###
 
 #POST http://localhost:8080/api/camel/create-project
-POST http://localhost:7777/api/camel/projects
+#DELETE http://localhost:7777/api/build-tool-manager/delete-repo
+#POST http://localhost:7777/api/camel/projects
+POST http://localhost:7777/api/camel/projects-with-fail
 #POST http://localhost:8083/api/code-repo-tool-manager/create-repo
 #POST http://localhost:8080/api/camel/projects
 #POST http://localhost:8081/orders
