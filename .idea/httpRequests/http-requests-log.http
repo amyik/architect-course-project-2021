@@ -1,1516 +1,335 @@
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/build-tool-manager/sample
+HOST: devops.example.com
 Accept: application/json
 
-<> 2021-08-14T151838.200.json
+<> 2021-08-17T234644.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T151835.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
 Accept: application/json
 
-<> 2021-08-14T151601.200.json
+<> 2021-08-17T234640.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T151548.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T151110.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/backend/sample
 Accept: application/json
 
-<> 2021-08-14T150558.200.json
+<> 2021-08-17T234638.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T150554.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/backend/sample
 Accept: application/json
 
-<> 2021-08-14T150342.200.json
+<> 2021-08-17T234120.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T150324.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/backend/sample
 Accept: application/json
 
-<> 2021-08-14T145724.200.json
+<> 2021-08-17T234112.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T145720.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T145145.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
-Accept: application/json
-
-<> 2021-08-14T144740.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T144731.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T144225.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T143921.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T143905.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T143705.500.txt
-
-###
-
-DELETE http://localhost:7777/api/build-tool-manager/delete-repo
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T143221.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T143025.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142838.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142820.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142731.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142729.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142246.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142151.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T142043.200.json
-
-###
-
-DELETE http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/camel/sample
 Accept: application/json
 
 ###
 
-GET http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/backend/sample
 Accept: application/json
 
-<> 2021-08-14T132818.200.json
+<> 2021-08-17T234021.200.json
 
 ###
 
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T132803.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T132742.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T132738.502.html
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
-Accept: application/json
-
-<> 2021-08-14T132236.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T132225.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131820.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131751.404.json
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131746.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131410.504.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131244.504.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131130.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T131125.502.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T130424.504.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T130120.504.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T125305.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T124748.504.html
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T124311.500.txt
-
-###
-
-GET http://localhost:7777/api/build-tool-manager/tools
-Accept: application/json
-
-<> 2021-08-14T123858.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-08-14T123854.500.txt
-
-###
-
-DELETE http://localhost:7777/api/build-tool-manager/tools
+GET http://localhost:80/api/build-tool-manager/sample
+HOST: devops.example.com
 Accept: application/json
 
 ###
 
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
 
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
+###
 
-<> 2021-08-14T123607.500.txt
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-17T233906.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T233757.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T232454.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T232444.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T232435.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T231429.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T231335.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:81/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T231059.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com1
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T231049.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T230943.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T230938.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T230902.200.json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+GET http:
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T230845.200.json
+
+###
+
+GET http://127.0.0.1:80/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-08-17T230637.404.html
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/backend/sample
+HOST: devops.example.com23
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:30996/api/backend/sample
+HOST: devops.example.com
+Accept: application/json
 
 ###
 

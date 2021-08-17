@@ -1,0 +1,56 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: backend
+spec:
+  hosts:
+#  - "devops.example.com"
+  - "*"
+  gateways:
+  - devops-gateway
+#  - mesh # internal request 도 virtual service의 정책을 따르도록 한다.
+  http:
+  - match:
+    - uri:
+        prefix: /api/backend
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: backend
+##########
+  - match:
+    - uri:
+        prefix: /api/camel
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: camel
+##########
+  - match:
+    - uri:
+        prefix: /api/build-tool-manager
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: build-tool-manager
+##########
+  - match:
+    - uri:
+        prefix: /api/code-repo-tool-manager
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: code-repo-tool-manager
+##########
+  - match:
+    - uri:
+        prefix: /api/image-repo-tool-manager
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: image-repo-tool-manager

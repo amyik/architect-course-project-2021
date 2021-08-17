@@ -5,13 +5,24 @@ Content-Type: application/json
 
 ###
 ###
-GET http://localhost:8080/api/camel/sample
+GET http://localhost:80/api/camel/sample
+Accept: application/json
+
+
+### istio ingress-gateway를 통한 외부 네트워크 통신 확인
+GET http://localhost:80/api/backend/sample
+#HOST: devops.example.com
 Accept: application/json
 
 ###
-GET http://localhost:8080/api/backend/sample
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
 Accept: application/json
 
+###
+GET http://localhost:80/api/build-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
 
 ### camel rest 동작 확인
 GET http://localhost:7777/api/camel/hello-world
