@@ -1,3 +1,206 @@
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211810.200.json
+
+###
+
+GET http://localhost:80/api/camel/sample
+Accept: application/json
+
+<> 2021-08-23T211431.503.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211412.503.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211403.503.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211354.503.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211344.503.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211332.503.txt
+
+###
+
+GET http://localhost:80/keycloak
+Accept: application/json
+
+<> 2021-08-23T211117.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T211109.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T210759.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T210756.403.txt
+
+###
+
+GET http://localhost:80/keycloak
+Accept: application/json
+
+<> 2021-08-23T210619.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T210547.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkRIRmJwb0lVcXJZOHQyenBBMnFYZkNtcjVWTzVaRXI0UnpIVV8tZW52dlEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjQ2ODU5ODk3MDAsImZvbyI6ImJhciIsImlhdCI6MTUzMjM4OTcwMCwiaXNzIjoidGVzdGluZ0BzZWN1cmUuaXN0aW8uaW8iLCJzdWIiOiJ0ZXN0aW5nQHNlY3VyZS5pc3Rpby5pbyJ9.CfNnxWP2tcnR9q0vxyxweaF3ovQYHYZl82hAUsn21bwQd9zP7c-LS9qd_vpdLG4Tn1A15NxfCjp5f7QNBUo-KC9PJqYpgGbaXhaGx7bEdFWjcwv3nZzvc7M__ZpaCERdwU7igUmJqYGBYQ51vr2njU9ZimyKkfDe3axcyiBZde7G6dabliUosJvvKOPcKIWPccCgefSj_GNfwIip3-SsFdlR7BtbVUcqR-yv-XOxJ3Uc1MI0tz3uMiiZcyPV7sNCU4KRnemRIMHVOfuvHsU60_GhGbiSFzgPTAa9WTltbnarTbxudb_YEOx12JiwYToeX0DCPb43W1tzIBxgm8NxUg
+
+<> 2021-08-23T210540.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkRIRmJwb0lVcXJZOHQyenBBMnFYZkNtcjVWTzVaRXI0UnpIVV8tZW52dlEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjQ2ODU5ODk3MDAsImZvbyI6ImJhciIsImlhdCI6MTUzMjM4OTcwMCwiaXNzIjoidGVzdGluZ0BzZWN1cmUuaXN0aW8uaW8iLCJzdWIiOiJ0ZXN0aW5nQHNlY3VyZS5pc3Rpby5pbyJ9.CfNnxWP2tcnR9q0vxyxweaF3ovQYHYZl82hAUsn21bwQd9zP7c-LS9qd_vpdLG4Tn1A15NxfCjp5f7QNBUo-KC9PJqYpgGbaXhaGx7bEdFWjcwv3nZzvc7M__ZpaCERdwU7igUmJqYGBYQ51vr2njU9ZimyKkfDe3axcyiBZde7G6dabliUosJvvKOPcKIWPccCgefSj_GNfwIip3-SsFdlR7BtbVUcqR-yv-XOxJ3Uc1MI0tz3uMiiZcyPV7sNCU4KRnemRIMHVOfuvHsU60_GhGbiSFzgPTAa9WTltbnarTbxudb_YEOx12JiwYToeX0DCPb43W1tzIBxgm8NxUg
+
+<> 2021-08-23T204118.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T204109.403.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T204008.200.json
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkRIRmJwb0lVcXJZOHQyenBBMnFYZkNtcjVWTzVaRXI0UnpIVV8tZW52dlEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjQ2ODU5ODk3MDAsImZvbyI6ImJhciIsImlhdCI6MTUzMjM4OTcwMCwiaXNzIjoidGVzdGluZ0BzZWN1cmUuaXN0aW8uaW8iLCJzdWIiOiJ0ZXN0aW5nQHNlY3VyZS5pc3Rpby5pbyJ9.CfNnxWP2tcnR9q0vxyxweaF3ovQYHYZl82hAUsn21bwQd9zP7c-LS9qd_vpdLG4Tn1A15NxfCjp5f7QNBUo-KC9PJqYpgGbaXhaGx7bEdFWjcwv3nZzvc7M__ZpaCERdwU7igUmJqYGBYQ51vr2njU9ZimyKkfDe3axcyiBZde7G6dabliUosJvvKOPcKIWPccCgefSj_GNfwIip3-SsFdlR7BtbVUcqR-yv-XOxJ3Uc1MI0tz3uMiiZcyPV7sNCU4KRnemRIMHVOfuvHsU60_GhGbiSFzgPTAa9WTltbnarTbxudb_YEOx12JiwYToeX0DCPb43W1tzIBxgm8NxUg
+
+<> 2021-08-23T203858.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkRIRmJwb0lVcXJZOHQyenBBMnFYZkNtcjVWTzVaRXI0UnpIVV8tZW52dlEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjQ2ODU5ODk3MDAsImZvbyI6ImJhciIsImlhdCI6MTUzMjM4OTcwMCwiaXNzIjoidGVzdGluZ0BzZWN1cmUuaXN0aW8uaW8iLCJzdWIiOiJ0ZXN0aW5nQHNlY3VyZS5pc3Rpby5pbyJ9.CfNnxWP2tcnR9q0vxyxweaF3ovQYHYZl82hAUsn21bwQd9zP7c-LS9qd_vpdLG4Tn1A15NxfCjp5f7QNBUo-KC9PJqYpgGbaXhaGx7bEdFWjcwv3nZzvc7M__ZpaCERdwU7igUmJqYGBYQ51vr2njU9ZimyKkfDe3axcyiBZde7G6dabliUosJvvKOPcKIWPccCgefSj_GNfwIip3-SsFdlR7BtbVUcqR-yv-XOxJ3Uc1MI0tz3uMiiZcyPV7sNCU4KRnemRIMHVOfuvHsU60_GhGbiSFzgPTAa9WTltbnarTbxudb_YEOx12JiwYToeX0DCPb43W1tzIBxgm8NxUg
+
+<> 2021-08-23T203738.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer abcd
+
+<> 2021-08-23T203730.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkRIRmJwb0lVcXJZOHQyenBBMnFYZkNtcjVWTzVaRXI0UnpIVV8tZW52dlEiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjQ2ODU5ODk3MDAsImZvbyI6ImJhciIsImlhdCI6MTUzMjM4OTcwMCwiaXNzIjoidGVzdGluZ0BzZWN1cmUuaXN0aW8uaW8iLCJzdWIiOiJ0ZXN0aW5nQHNlY3VyZS5pc3Rpby5pbyJ9.CfNnxWP2tcnR9q0vxyxweaF3ovQYHYZl82hAUsn21bwQd9zP7c-LS9qd_vpdLG4Tn1A15NxfCjp5f7QNBUo-KC9PJqYpgGbaXhaGx7bEdFWjcwv3nZzvc7M__ZpaCERdwU7igUmJqYGBYQ51vr2njU9ZimyKkfDe3axcyiBZde7G6dabliUosJvvKOPcKIWPccCgefSj_GNfwIip3-SsFdlR7BtbVUcqR-yv-XOxJ3Uc1MI0tz3uMiiZcyPV7sNCU4KRnemRIMHVOfuvHsU60_GhGbiSFzgPTAa9WTltbnarTbxudb_YEOx12JiwYToeX0DCPb43W1tzIBxgm8NxUg
+
+<> 2021-08-23T203711.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer abcd
+
+<> 2021-08-23T203651.401.txt
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer abcd
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+Authorization: Bearer abcd
+
+<> 2021-08-23T203204.200.json
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T203101.200.json
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T203058.200.json
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T202755.200.json
+
+###
+
+GET http://localhost:80/api/backend/sample
+Accept: application/json
+
+<> 2021-08-23T160317.200.json
+
+###
+
 GET http://localhost:80/api/build-tool-manager/sample
 HOST: devops.example.com
 Accept: application/json
@@ -149,187 +352,6 @@ HOST: devops.example.com
 Accept: application/json
 
 <> 2021-08-17T231059.200.json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com1
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T231049.200.json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T230943.200.json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T230938.200.json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T230902.200.json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-GET http:
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T230845.200.json
-
-###
-
-GET http://127.0.0.1:80/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-<> 2021-08-17T230637.404.html
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:8080/api/backend/sample
-HOST: devops.example.com23
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://127.0.0.1:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
-
-###
-
-GET http://localhost:30996/api/backend/sample
-HOST: devops.example.com
-Accept: application/json
 
 ###
 

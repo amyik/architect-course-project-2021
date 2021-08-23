@@ -54,3 +54,14 @@ spec:
           port:
             number: 8080
           host: image-repo-tool-manager
+    ##########
+  - match:
+      - uri:
+          prefix: /keycloak
+    rewrite:
+      uri: "/"
+    route:
+      - destination:
+          port:
+            number: 8080
+          host: keycloak
