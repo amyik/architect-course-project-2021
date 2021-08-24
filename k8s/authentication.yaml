@@ -8,8 +8,10 @@ spec:
     matchLabels:
       app: istio-ingressgateway
   jwtRules:
-  - issuer: "testing@secure.istio.io"
-    jwksUri: "https://raw.githubusercontent.com/istio/istio/release-1.11/security/tools/jwt/samples/jwks.json"
+#  - issuer: "http://localhost:30003/auth/realms/devops2"
+#    jwksUri: "http://keycloak:8080/auth/realms/devops/protocol/openid-connect/certs"
+  - issuer: "http://localhost:80/auth/realms/devops"
+    jwksUri: "http://localhost:80/auth/realms/devops/protocol/openid-connect/certs"
 ---
 #apiVersion: security.istio.io/v1beta1
 #kind: AuthorizationPolicy
