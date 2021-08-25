@@ -12,8 +12,8 @@ spec:
       nodePort: 30003
   selector:
     app: keycloak
-#  type: LoadBalancer
-  type: NodePort
+  type: LoadBalancer
+#  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment

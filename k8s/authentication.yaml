@@ -8,47 +8,24 @@ spec:
     matchLabels:
       app: istio-ingressgateway
   jwtRules:
-#  - issuer: "http://localhost:30003/auth/realms/devops2"
-#    jwksUri: "http://keycloak:8080/auth/realms/devops/protocol/openid-connect/certs"
-  - issuer: "http://localhost:80/auth/realms/devops"
-    jwksUri: "http://localhost:80/auth/realms/devops/protocol/openid-connect/certs"
+  - issuer: "http://34.64.220.162:8080/auth/realms/devops"
+    jwksUri: "http://34.64.220.162:8080/auth/realms/devops/protocol/openid-connect/certs"
+    outputPayloadToHeader: x-jwt
 ---
-#apiVersion: security.istio.io/v1beta1
-#kind: AuthorizationPolicy
-#metadata:
-#  name: policy1
-#  namespace: istio-system
-#spec:
-#  selector:
-#    matchLabels:
-#      app: istio-ingressgateway
-#  action: DENY
-#  rules:
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: policy1
+  namespace: istio-system
+spec:
+  selector:
+    matchLabels:
+      app: istio-ingressgateway
+  action: ALLOW
+  rules:
+    - when:
+        - key: request.auth.claims[email]
+          values: ["*@samsung.com", "*@partner.samsung.com"]
 #    - from:
 #        - source:
-#            notRequestPrincipals: ["*"]
-#---
-#apiVersion: security.istio.io/v1beta1
-#kind: AuthorizationPolicy
-#metadata:
-#  name: policy2
-#  namespace: istio-system
-#spec:
-#  selector:
-#    matchLabels:
-#      app: istio-ingressgateway
-#  action: ALLOW
-#  rules:
-#    - to:
-#        - operation:
-#            paths: ["/keycloak"]
-
-
-
-## 3473847939a574146852
-
-## 4e41e1b5be772d6a40d173070bbc66d55602de7b
-
-## https://github.com/login/oauth/authorize
-
-## https://github.com/login/oauth/access_token
+#            notRequestPrincipals: ["auth.claims[email]"]
