@@ -32,7 +32,7 @@ public class SampleController {
     @GetMapping("/jpa-test")
     public List<ToolEntity> jpaTest() {
 
-        toolRepository.save(new ToolEntity(null, "githubName", "github", "url1"));
+        toolRepository.save(new ToolEntity(null, "myJenkins", "jenkins", "www.jenkins.com"));
         Iterable<ToolEntity> all = toolRepository.findAll();
 
         return Streamable.of(all).toList();
@@ -43,7 +43,7 @@ public class SampleController {
         toolRepository.deleteAll();
     }
 
-    @GetMapping("/tools")
+    @GetMapping("/all-type-tools")
     public List<ToolEntity> getTools() {
         Iterable<ToolEntity> all = toolRepository.findAll();
         return Streamable.of(all).toList();

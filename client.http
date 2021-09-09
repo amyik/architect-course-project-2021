@@ -27,6 +27,7 @@ Authorization: Bearer {{myuser_id_token}}
 ###
 GET http://localhost:80/api/code-repo-tool-manager/sample
 HOST: devops.example.com
+Authorization: Bearer {{myuser_id_token}}
 Accept: application/json
 
 ###
@@ -46,17 +47,39 @@ Accept: application/json
 GET http://localhost:7777/api/build-tool-manager/sample
 Accept: application/json
 
+
+### POC1 workload동작 확인 ###
+
+### 모든 툴 data 조회
+GET http://localhost:80/api/build-tool-manager/all-type-tools
+Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
+
+### code-repo-tool 데이터 하나 만들기
+GET http://localhost:80/api/code-repo-tool-manager/jpa-test
+Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
+
+### image-build-tool 데이터 하나 만들기
+GET http://localhost:80/api/image-repo-tool-manager/jpa-test
+Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
+
 ### build-tool 데이터 하나 만들기
-GET http://localhost:7777/api/build-tool-manager/jpa-test
+GET http://localhost:80/api/build-tool-manager/jpa-test
 Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
 
-### 모든 툴 정보 삭제
-DELETE http://localhost:7777/api/build-tool-manager/tools
+### 모든 툴 data 조회
+GET http://localhost:80/api/code-repo-tool-manager/tools
 Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
 
-### 모든 툴 정보 조회
-GET http://localhost:7777/api/build-tool-manager/tools
+### 모든 툴 data 삭제
+DELETE http://localhost:80/api/build-tool-manager/tools
 Accept: application/json
+Authorization: Bearer {{myuser_id_token}}
+
 
 
 

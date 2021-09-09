@@ -33,7 +33,7 @@ public class SampleController {
     @ResponseStatus(HttpStatus.OK)
     public List<ToolEntity> jpaTest() {
 
-        toolRepository.save(new ToolEntity(null, "githubName", "github", "url1"));
+        toolRepository.save(new ToolEntity(null, "myGithub", "github", "www.github.com"));
         Iterable<ToolEntity> all = toolRepository.findAll();
 
         return Streamable.of(all).toList();
