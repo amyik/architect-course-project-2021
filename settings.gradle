@@ -1,12 +1,15 @@
 rootProject.name = 'devops'
 
-include 'backend'
-include 'camel'
-include 'common'
-include ':tool-managers:tool-managers-common'
-include ':tool-managers:code-repo-tool-manager'
-include ':tool-managers:image-repo-tool-manager'
-include ':tool-managers:build-tool-manager'
+include 'backend' //기존 Backend workload
+include 'camel' //apache camel workload
+include 'common' //공용 라이브러리 및 객체
+include ':tool-managers:tool-managers-common' //툴 관리 workload의 공용 Data Access 코드
+include ':tool-managers:code-repo-tool-manager' //코드 저장소 Tool관리 workload
+include ':tool-managers:image-repo-tool-manager' //이미지 저장소 Tool관리 workload
+include ':tool-managers:build-tool-manager' //빌드 Tool관리 workload
+
+
+
 
 //include 'caasportal-backend'
 //include 'caasportal-provisioner'
