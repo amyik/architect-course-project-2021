@@ -43,7 +43,8 @@ Accept: application/json
 
 ###
 GET http://localhost:80/api/build-tool-manager/sample
-HOST: devops.example.com
+#HOST: devops.example.com
+Authorization: Bearer {{myuser_id_token}}
 Accept: application/json
 
 ### camel rest 동작 확인

@@ -36,7 +36,15 @@ spec:
           port:
             number: 8080
           host: build-tool-manager
-##########
+          subset: v1
+        weight: 75
+      - destination:
+          port:
+            number: 8080
+          host: build-tool-manager
+          subset: v2
+        weight: 25
+    ##########
   - match:
     - uri:
         prefix: /api/code-repo-tool-manager
@@ -63,3 +71,18 @@ spec:
           port:
             number: 8080
           host: keycloak
+
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: build-tool-manager-destination
+spec:
+  host: build-tool-manager
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
