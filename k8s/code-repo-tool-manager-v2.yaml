@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: code-repo-tool-manager-v1
+  name: code-repo-tool-manager-v2
 spec:
   selector:
     matchLabels:
       app: code-repo-tool-manager
-      version: v1
+      version: v2
   template:
     metadata:
       labels:
         app: code-repo-tool-manager
-        version: v1
+        version: v2
     spec:
       containers:
         - name: code-repo-tool-manager
@@ -34,7 +34,7 @@ spec:
             - name: spring.jpa.show-sql
               value: "true"
             - name: version
-              value: "v1"
+              value: "v2"
           resources:
             requests:
               cpu: 200m
@@ -42,15 +42,3 @@ spec:
             limits:
               cpu: 400m
               memory: 300Mi
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: code-repo-tool-manager
-spec:
-  type: ClusterIP
-  selector:
-    app: code-repo-tool-manager
-  ports:
-  - port: 8080
-    targetPort: 8080

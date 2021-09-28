@@ -1,3 +1,357 @@
+GET http://localhost:80/api/code-repo-tool-manager/sample
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T161622.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T161032.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+Accept: application/json
+
+<> 2021-09-28T161030.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+Accept: application/json
+
+<> 2021-09-28T160801.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T160746.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T160741.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T160738.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T160508.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T160505.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T160054.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T160051.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T155558.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155556.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T155554.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155550.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155548.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155545.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155542.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T155358.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T155354.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/jpa-test
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
+
+<> 2021-09-28T155347.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+###
+
+GET http://localhost:80/api/build-tool-manager/sample
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
+Accept: application/json
+
+<> 2021-09-28T155012.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T155008.200.json
+
+###
+
+GET http://localhost:80/api/build-tool-manager/sample
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
+Accept: application/json
+
+<> 2021-09-28T154250.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T154246.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T153728.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T153428.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T153425.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T153130.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T153127.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152745.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T152735.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T152454.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152451.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152443.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T152305.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+end-user: test-user
+Accept: application/json
+
+<> 2021-09-28T152302.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152259.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152114.200.json
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T152104.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Accept: application/json
+
+<> 2021-09-28T151812.503.txt
+
+###
+
+GET http://localhost:80/api/code-repo-tool-manager/sample
+HOST: devops.example.com
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
+Accept: application/json
+
+<> 2021-09-28T151622.503.txt
+
+###
+
 GET http://localhost:80/api/build-tool-manager/sample
 Accept: application/json
 
@@ -54,582 +408,6 @@ Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2
 Accept: application/json
 
 <> 2021-09-28T142720.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/sample
-HOST: devops.example.com
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-Accept: application/json
-
-<> 2021-09-28T142718.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/sample
-HOST: devops.example.com
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-Accept: application/json
-
-<> 2021-09-28T142717.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/sample
-HOST: devops.example.com
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-Accept: application/json
-
-<> 2021-09-28T142714.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/sample
-HOST: devops.example.com
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-Accept: application/json
-
-<> 2021-09-28T142132.503.txt
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T134432.200.json
-
-###
-
-POST http://localhost:80/api/camel/projects-with-fail
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-09-28T134410.500.txt
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T133847.200.json
-
-###
-
-POST http://localhost:80/api/camel//projects-with-fail-but-saga
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-09-28T133835.500.txt
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T132906.200.json
-
-###
-
-POST http://localhost:80/api/camel//projects-with-fail-but-saga
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-09-28T132900.500.txt
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T132552.200.json
-
-###
-
-POST http://localhost:80/api/camel/projects-with-fail
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-09-28T132003.500.txt
-
-###
-
-POST http://localhost:7777/api/camel/projects-with-fail
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T131931.200.json
-
-###
-
-DELETE http://localhost:80/api/build-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T131520.200.json
-
-###
-
-POST http://localhost:80/api/camel/projects
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-<> 2021-09-28T131501.200.json
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-###
-
-POST http://localhost:7777/api/camel/projects
-Content-Type: application/json
-
-{
-  "project": {
-    "name": "myProject"
-  },
-  "codeRepoTool": {
-    "use": true,
-    "type": "GITHUB",
-    "name": "myGITHUB",
-    "url": "http://github.com/myGITHUB"
-  },
-  "imageRepoTool": {
-    "use": true,
-    "type": "REDII",
-    "name": "myREDII",
-    "url": "http://redii.net/myREDII"
-  },
-  "buildTool": {
-    "use": true,
-    "type": "JENKINS",
-    "name": "myJENKINS",
-    "url": "http://jenkins.com/myJENKINS"
-  },
-  "otherTool": {
-    "use": false,
-    "type": null,
-    "name": null,
-    "url": null
-  }
-}
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T131342.200.json
-
-###
-
-GET http://localhost:80/api/code-repo-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T131315.404.json
-
-###
-
-GET http://localhost:80/api/backend/authentication-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzd
-
-<> 2021-09-28T125909.401.txt
-
-###
-
-GET http://localhost:80/api/backend/authentication-test
-Accept: application/json
-Authorization: Bearer worng.Token.Value
-
-<> 2021-09-28T125751.401.txt
-
-###
-
-GET http://localhost:80/api/backend/authentication-test
-Accept: application/json
-Authorization: Bearer worngTokenValue
-
-<> 2021-09-28T125739.401.txt
-
-###
-
-GET http://localhost:80/api/backend/authentication-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T125513.200.json
-
-###
-
-GET http://localhost:80/api/backend/authentication-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzg
-
-<> 2021-09-28T125045.200.json
-
-###
-
-POST http://34.64.220.162:8080/auth/realms/devops/protocol/openid-connect/token
-Content-Type: application/x-www-form-urlencoded
-
-grant_type=password&scope=openid&client_id=myclient&username=myuser&password=password&client_secret=3fa68da5-b7cc-44d8-b1aa-ae81be332749
-
-<> 2021-09-28T124951.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T172300.200.json
-
-###
-
-GET http://localhost:80/api/image-repo-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T172257.200.json
-
-###
-
-GET http://localhost:80/api/code-repo-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T172254.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T172248.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-###
-
-GET http://localhost:80/api/build-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T171020.200.json
-
-###
-
-GET http://localhost:80/api/image-repo-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T171018.200.json
-
-###
-
-GET http://localhost:80/api/code-repo-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170943.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170902.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/all-type-tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170512.200.json
-
-###
-
-DELETE http://localhost:80/api/build-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-###
-
-GET http://localhost:80/api/build-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170228.200.json
-
-###
-
-GET http://localhost:80/api/code-repo-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170215.404.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/jpa-test
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170210.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170203.200.json
-
-###
-
-GET http://localhost:80/api/build-tool-manager/tools
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzEyMDk3NjAsImlhdCI6MTYzMTE3Mzc2MCwiYXV0aF90aW1lIjowLCJqdGkiOiI5YzA1N2Y2NS05ZjI2LTQzY2MtYmI5OS00MzhkNzE0ZDVjY2MiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJhdF9oYXNoIjoiWjVLSWdOY3B5azNDb0loWkFHZ0xDUSIsImFjciI6IjEiLCJzaWQiOiIwNzFjZjY0Yi1jOGE5LTQyMTgtYmRkMi1kZjMxYmFlNTc0ZDIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.ZWFh2HjtE9bgptBUn6o3QuD8B-VyJbm3NRiHx-eH6mtxfJqOfqbHOLtOqBgtkgr6YWdOgtACQjLkq1nKViPYHtKdJ1tKTwRlqlBeRe0LF7O5I3qDL_Ce9Gz84JHroRCxvVycxVpsItL4enjBC0igb6WOX16_YYxyhRm-QKy6mGmdRWhfqDx11bv2g0bmkmcYWiO-XqLjHpdR4u67zNyhEnN7MlWjHblJ0VBTvU1bnlB1jZWVzqVMKT0Vt5UGaGYdY4UIU7XUsLZeOfJ4yKs73hhwh_bfdicCObASrRscxCo1kpDG0EJTJrkkmcMh14DFTN2czAfy1CaPhbIIjGSKSQ
-
-<> 2021-09-09T170148.200.json
 
 ###
 

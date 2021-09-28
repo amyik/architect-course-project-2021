@@ -23,10 +23,13 @@ public class SampleController {
     @Value("${spring.application.name}")
     private String appName;
 
+    @Value("${version}")
+    private String version;
+
     @GetMapping("/sample")
     @ResponseStatus(HttpStatus.OK)
     public String sample() {
-        return "sample api works! : " + appName;
+        return "sample api works! : " + appName + "from version " + version;
     }
 
     @GetMapping("/jpa-test")

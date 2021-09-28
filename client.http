@@ -37,9 +37,13 @@ Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2
 
 ###
 GET http://localhost:80/api/code-repo-tool-manager/sample
-HOST: devops.example.com
-Authorization: Bearer {{myuser_id_token}}
 Accept: application/json
+
+###
+GET http://localhost:80/api/code-repo-tool-manager/sample
+end-user: test-user
+Accept: application/json
+
 
 ###
 GET http://localhost:80/api/build-tool-manager/sample

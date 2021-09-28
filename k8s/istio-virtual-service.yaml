@@ -45,14 +45,6 @@ spec:
           subset: v2
         weight: 25
     ##########
-  - match:
-    - uri:
-        prefix: /api/code-repo-tool-manager
-    route:
-      - destination:
-          port:
-            number: 8080
-          host: code-repo-tool-manager
 ##########
   - match:
     - uri:
@@ -86,3 +78,61 @@ spec:
     - name: v2
       labels:
         version: v2
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: code-repo-tool-manager-destination
+spec:
+  host: code-repo-tool-manager
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+---
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: code-repo-tool-manager
+#spec:
+#  hosts:
+#    - "*"
+#  gateways:
+#    - devops-gateway
+#  http:
+#    - match:
+#        - headers:
+#            end-user:
+#              exact: "test-user"
+#        - uri:
+#            prefix: /api/code-repo-tool-manager
+#      route:
+#        - destination:
+#            port:
+#              number: 8080
+#            host: code-repo-tool-manager
+#            subset: v2
+#---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: code-repo-tool-manager-v1
+spec:
+  hosts:
+#      - "devops.example.com"
+    - "*"
+  gateways:
+    - devops-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /api/code-repo-tool-manager
+      route:
+        - destination:
+            port:
+              number: 8080
+            host: code-repo-tool-manager
+            subset: v1
