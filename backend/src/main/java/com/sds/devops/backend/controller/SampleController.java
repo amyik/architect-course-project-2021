@@ -37,7 +37,7 @@ public class SampleController {
             return "istio RequestAuthentication Error, no user email value in header";
         }
 
-        return "istio RequestAuthentication Error works! userEmail: " + userEmail;
+        return "istio RequestAuthentication works! userEmail: " + userEmail;
     }
 
     private String getUserEmail(String payload) throws JsonProcessingException {

@@ -25,6 +25,17 @@ Accept: application/json
 Authorization: Bearer {{myuser_id_token}}
 
 ###
+
+GET http://localhost:80/api/backend/authentication-test
+Accept: application/json
+Authorization: Bearer worng.Token.Value
+###
+
+GET http://localhost:80/api/backend/authentication-test
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIxRnBYT2lPdExVNk1QeXdJSHQ4bUYyY0tiX3BObDZhUHU2S1NkRkNZOTRZIn0.eyJleHAiOjE2MzI4MzY5OTEsImlhdCI6MTYzMjgwMDk5MSwiYXV0aF90aW1lIjowLCJqdGkiOiI0M2EwZmJjNS1lZjc1LTQ1NzQtOGM4Zi00MTIyMTQ1OWE5YzgiLCJpc3MiOiJodHRwOi8vMzQuNjQuMjIwLjE2Mjo4MDgwL2F1dGgvcmVhbG1zL2Rldm9wcyIsImF1ZCI6Im15Y2xpZW50Iiwic3ViIjoiMjZlN2M1ZDEtMTczMS00NDkyLTk0YzUtM2YzZmVlYWE4YWQ4IiwidHlwIjoiSUQiLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJhdF9oYXNoIjoiYUlWSlNDZ284TnlJR29GQjhoaFAzZyIsImFjciI6IjEiLCJzaWQiOiI3MjYzOWIxNy05YTA5LTQyY2YtODMzZC0xODBjMTY2MWQyOTAiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6Im1pbnNlb2sgeW9vbiIsInByZWZlcnJlZF91c2VybmFtZSI6Im15dXNlciIsImdpdmVuX25hbWUiOiJtaW5zZW9rIiwiZmFtaWx5X25hbWUiOiJ5b29uIiwiZW1haWwiOiJtbS55b29uQHNhbXN1bmcuY29tIn0.X7EWZFCq2W6TNbQHIKyBfiMW5VGOoTeirgf-wumVxcTlYIACOp210CPTcezjo1W1Q5WTq9w8JeL5xDbpDIhWD2bCUsC6mGPeWpuEHPPVBy-75XmXhPkxFqAy4xMZgJJwkI5-bYkT21uisCFivnk7yaaVaxFS6HC7Yj0TxLpP5PNQePYrNicpvSPM8QC18mTVB4sZlaHZ35RCmauYYkZBlx7vlbPAW3fpmNP1vMqOdpatUbkYmIDNEEx2cvLvm4Yfn6GXlomxnSuAi35N_BbxSKRCABYIBOjh1sYavRcvxo4hLW91dWOMAnmn-YOcRwYJPlbotjtDHf0g72uSEB4mzd
+
+###
 GET http://localhost:80/api/code-repo-tool-manager/sample
 HOST: devops.example.com
 Authorization: Bearer {{myuser_id_token}}
@@ -87,12 +98,14 @@ Authorization: Bearer {{myuser_id_token}}
 
 #POST http://localhost:8080/api/camel/create-project
 #DELETE http://localhost:7777/api/build-tool-manager/delete-repo
-#POST http://localhost:7777/api/camel/projects
-POST http://localhost:7777/api/camel/projects-with-fail
 #POST http://localhost:8083/api/code-repo-tool-manager/create-repo
 #POST http://localhost:8080/api/camel/projects
 #POST http://localhost:8081/orders
+#POST http://localhost:80/api/camel/projects
+#POST http://localhost:80/api/camel//projects-with-fail-but-saga
+POST http://localhost:80/api/camel/projects-with-fail
 Content-Type: application/json
+Authorization: Bearer {{myuser_id_token}}
 
 {
   "project": {

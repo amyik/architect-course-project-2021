@@ -44,6 +44,14 @@ public class CreateProjectRoute extends RouteBuilder {
                 .type(CreateProjectDto.class)
                 .to("direct:createProjectWithFail");
 
+        rest("/projects-with-fail-but-saga")
+                .id("porjects_api")
+                .consumes("application/json")
+                .post()
+                .bindingMode(RestBindingMode.json)
+                .type(CreateProjectDto.class)
+                .to("direct:createProjectWithFailButSaga");
+
         from("direct:createProject").routeId("route:createProject")
                 .log(">> - ${body}")
                 .log("sending to validator")
@@ -72,6 +80,24 @@ public class CreateProjectRoute extends RouteBuilder {
                 .log("returned from validator")
                 .saga()
                 .compensation("direct:cancelCreate").option("originalBody", body())
+                .marshal().json()
+                .setHeader(Exchange.HTTP_METHOD, constant("POST"))
+                .multicast().parallelProcessing()
+                .to("http://code-repo-tool-manager:8080/api/code-repo-tool-manager/create-repo?bridgeEndpoint=true"
+                        , "http://image-repo-tool-manager:8080/api/image-repo-tool-manager/create-repo?bridgeEndpoint=true"
+                        , "http://build-tool-manager:8080/api/build-tool-manager/throw-runtime-exception?bridgeEndpoint=true")
+                .process(exchange -> {
+                    log.debug("inProcess");
+                    log.debug("{}", exchange.getIn().getBody());
+                });
+
+        from("direct:createProjectWithFailButSaga").routeId("route:createProjectWithFailButSaga")
+                .log(">> - ${body}")
+                .log("sending to validator")
+                .to("bean:projectService?method=validate")
+                .log("returned from validator")
+                .saga()
+//                .compensation("direct:cancelCreate").option("originalBody", body())
                 .marshal().json()
                 .setHeader(Exchange.HTTP_METHOD, constant("POST"))
                 .multicast().parallelProcessing()
